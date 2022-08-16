@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Admin\Desktop\2 sem\cirs_proj\Fifteen\Fifteen\Source.cpp(220,9): warning C4101: temp: неиспользованная локальная переменная
+C:\Users\Admin\Desktop\2 sem\cirs_proj\Fifteen\Fifteen\Source.cpp(270,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Fifteen.vcxproj -> C:\Users\Admin\Desktop\2 sem\cirs_proj\Fifteen\Debug\Fifteen.exe

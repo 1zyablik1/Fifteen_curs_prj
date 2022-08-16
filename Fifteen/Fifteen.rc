@@ -1,0 +1,209 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Game"
+    BEGIN
+        MENUITEM "Shuffle",                     ID_GAME_SHUFFLE
+        MENUITEM "Score Board",                 ID_GAME_SCOREBOARD
+    END
+    POPUP "About"
+    BEGIN
+        MENUITEM "Rules",                       ID_ABOUT_RULES
+        MENUITEM "About",                       ID_ABOUT_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 65516, 0, 187, 115
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 14, "Microsoft Sans Serif", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,69,94,50,14
+    LTEXT           "RULES",IDC_STATICA,82,7,23,10
+    LTEXT           "The 15 puzzle s a sliding puzzle having 15 square tiles",IDC_STATIC,10,19,166,8
+    LTEXT           "numbered 1–15 in a frame that is 4 tiles high and 4 tiles",IDC_STATIC,10,28,166,8
+    LTEXT           "wide, leaving one unoccupied tile position.",IDC_STATIC,28,38,131,8
+    LTEXT           "To win set the cells in correct order. The last cell should",IDC_STATIC,8,66,170,8
+    LTEXT           "remain empty. To move, click on the cell in a nearby.",IDC_STATIC,13,76,161,8
+END
+
+IDD_DIALOG2 DIALOGEX 5, 0, 134, 91
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 14, "Microsoft Sans Serif", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,42,70,50,14
+    LTEXT           "ABOUT",IDC_STATIC,55,7,25,8
+    LTEXT           "Made by: Zyablitsev Kirill",IDC_STATIC,7,46,76,8
+    LTEXT           "Group: KIUKIu-21-1",IDC_STATIC,7,54,60,8
+    LTEXT           "Made for testing knowledge for semestr",IDC_STATIC,7,19,120,8
+    LTEXT           "as project of curse",IDC_STATIC,38,26,57,8
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 130, 84
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 14, "Microsoft Sans Serif", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,40,63,50,14
+    LTEXT           "YOUR SCORE",IDC_STATIC,41,7,47,8
+    EDITTEXT        IDC_EDIT1,25,45,80,15,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG4 DIALOGEX 65526, 0, 174, 150
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 14, "Microsoft Sans Serif", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,62,129,50,14
+    LTEXT           "SCOREBOARD",IDC_STATIC,63,15,49,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 127
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG4 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
